@@ -1,4 +1,4 @@
-// Set all variables..
+
 
 var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
@@ -8,12 +8,7 @@ var guessLeft= 9;
 var guessChoice=[];
 
 
-// Set the computer choice
 
-
-
-
-// Set the function when key is pressed
 
 document.onkeyup = function (event){
  var userGuess= event.key;
